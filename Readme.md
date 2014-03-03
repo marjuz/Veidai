@@ -1,1 +1,1 @@
-Veidø atpaşinimo árankis
+VeidÅ³ atpaÅ¾nimo Ä¯rankis
