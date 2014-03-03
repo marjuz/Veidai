@@ -1,0 +1,20 @@
+-----------------------------
+Veido class
+Set
+Get
+
+------------------------------
+VeiduSarasas class
+DetiVeida
+ImtiVeida
+
+
+
+------------------------------
+VeidoAtpazinimo class
+
+
+
+------------------------------
+Interfeisas class
+Main metodas
