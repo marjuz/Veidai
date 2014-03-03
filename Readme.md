@@ -1,0 +1,1 @@
+Veidø atpaþinimo árankis
