@@ -1,0 +1,11 @@
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\obj\Debug\MarJuz.FaceRec.Servises.csprojResolveAssemblyReference.cache
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\MarJuz.FaceRec.Servises.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\MarJuz.FaceRec.Servises.pdb
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.CPlusPlus.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.MachineLearning.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\bin\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\obj\Debug\MarJuz.FaceRec.Servises.dll
+C:\Users\Namai\Desktop\C#\Veidai\FaceRecognitionPraktika\MarJuz.FaceRec.Servises\obj\Debug\MarJuz.FaceRec.Servises.pdb

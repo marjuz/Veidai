@@ -1,0 +1,94 @@
+﻿@model MarJuz.FaceRec.DataEntities.Entities.UploadPhoto
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Create";
+
+    WebImage photo = null;
+    var newFileName = "";
+    var imagePath = "";
+    var date = "";
+    var ext = 0;
+
+
+    if (IsPost)
+    {
+        photo = WebImage.GetImageFromRequest();
+
+        if (photo != null)
+        {
+            date = String.Format("{0:MM.dd.yyyy_HH.mm.ss}", DateTime.Now);
+            newFileName = date.ToString() + "_" +
+                Path.GetFileName(photo.FileName);
+            imagePath = @"/images/" + newFileName;
+
+            photo.Save(@"~\" + imagePath);
+
+            
+            date = String.Format("{0:yyyy.dd.MM}", DateTime.Now);
+        }
+    }
+}
+
+<h2>Create</h2>
+
+<form action="/Create/create" method="post" enctype="multipart/form-data" id="forma">
+    <fieldset>
+        <legend> Upload Image </legend>
+        <label for="Image">Image</label>
+        <br />
+        <input type="file" name="Image" />
+        <br />
+        <div>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.NrOfFaces)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.NrOfFaces)
+                @Html.ValidationMessageFor(model => model.NrOfFaces)
+            </div>
+            <br /> 
+            Is Picture recognized:
+            <br />
+            <input type="text" name="IsPictureRecognized" value="@ext" />
+            <br />       
+            Picture Name:
+            <br />
+            <input type="text" name="PictureName" value="@newFileName" />
+            <br />
+            Date:
+            <br />
+            <input type="text" name="UploadDate" value="@date" />
+            <br />
+        </div>
+        <input type="submit" value="Upload" />
+        <br />
+        <a href="/Create/load/" id="createImageLink">Create</a>
+    </fieldset>
+</form>
+
+<h1>Uploaded Image</h1>
+@if (imagePath != "")
+{
+    <div class="result">
+        <img src="@imagePath" alt="Image" width="300px" />
+    </div>
+
+
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+
+
+
+<script type="text/javascript">
+    $('#createImageLink').on('click', function () {
+        $.post('/Create/Load', $('#forma').serialize(), function () {
+            document.location = '/';
+        });
+        return false;
+    });
+
+</script>

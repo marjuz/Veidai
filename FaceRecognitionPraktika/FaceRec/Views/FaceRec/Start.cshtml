@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+    ViewBag.Title = "Start";
+}
+
+<form action="@Url.Action("Find")" method="post" enctype="multipart/form-data">
+    <input type="file" name="photo" />
+    <input type="submit" value="upload" />
+</form>
