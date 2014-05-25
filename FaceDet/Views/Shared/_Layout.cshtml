@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="@Url.Content("~/Scripts/jquery.filedrop.js")" type="text/javascript"></script>
+    <link rel="stylesheet" href="/Content/layout.css">
+</head>
+<body style="background-image: url(/Content/random_grey_variations.png); ">
+
+    <div id="container">
+        <div id="header">
+            <h1 id="textheder">VEIDŲ NUOTRAUKOSE ATPAŽINIMO PROGRAMA</h1>
+            <p id="textheder">ASP.NET</p>
+            <p></p>
+        </div>
+        <div id="menu">
+            <ul class="navbar">
+                <li><a href="/home/index/">Apie</a>
+                <li><a href="/Create/index/">Įkelti nuotraukas</a>
+                <li><a href="/Names/index/">Vardų suteikimas</a>
+                <li><a href="/Photo/index/">Nuotraukų sarašas</a>
+                <li><a href="/Faces/index/">Veidų sarašas</a>
+            </ul>
+            <ul>
+                <li id="emty">
+                    @Html.Partial("~/Views/Search/index.cshtml");
+            </ul>
+
+        </div>
+
+        <div id="main">
+            @RenderBody()
+        </div>
+
+        <div id="footer">
+            <p> Martynas Juzaitis @DateTime.Now.Year Programavimo praktika .Net</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+

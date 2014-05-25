@@ -1,0 +1,35 @@
+﻿@model MarJuz.FaceDetection.Entities.Faces
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Faces</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FaceName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FaceName)
+            @Html.ValidationMessageFor(model => model.FaceName)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Grįžti atgal į sarašą", "Index")
+</div>

@@ -1,0 +1,41 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#dropZone').filedrop({
+            url: '@Url.Action("UploadFiles")',
+            paramname: 'files',
+            maxFiles: 5,
+            dragOver: function () {
+                $('#dropZone').css('background', 'blue');
+            },
+            dragLeave: function () {
+                $('#dropZone').css('background', 'gray');
+            },
+            drop: function () {
+                $('#dropZone').css('background', 'gray');
+            },
+            afterAll: function () {
+                $('#dropZone').html('Nuotrauka(os) įkeltos sėkmingai!');
+            },
+            uploadFinished: function (i, file, response, time) {
+                var imgurl = file.name;
+                $('#uploadResult').append('<td id="tekstas">' + file.name + '<td/>');
+
+            }
+        });
+    });
+</script>
+
+<h2>Langas nuotraukoms įkelti</h2>
+<div id="dropZone">Įkelkite nuotraukas čia</div>
+<br />
+<div id="tekstas">
+    Įkeltos nuotraukos:
+</div>
+<ul id="uploadResult"></ul>

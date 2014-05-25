@@ -1,0 +1,24 @@
+﻿@model MarJuz.FaceDetection.Entities.Photo
+
+@{
+    ViewBag.Title = "Find";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id="FaceLine">
+    <tr>
+        <td>
+            <img src="@Url.Content("/images/"+Model.PhotoName)" alt="Image" height="150px" />
+            <br />
+            @Html.DisplayNameFor(model => model.PhotoName)
+        </td>
+        <td>
+            @foreach (var item in Model.faces) 
+            { 
+                <img src="@Url.Content("/images/"+item.FileName)" alt="Image" height="50px" />
+                <br />
+            }
+        </td>
+    </tr>
+</table>
+

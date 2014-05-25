@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MarJuz.FaceDetection.Entities.Photo>
+
+@{
+    ViewBag.Title = "Vardų suteikimas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id="FaceLine">
+    @foreach (var item in Model)
+    {
+        
+        <tr>
+
+            <td >
+                <img src="@Url.Content("/images/"+item.PhotoName)" alt="Image" height="150px" />
+                <br />
+              
+
+                @Html.DisplayFor(modelItem => item.PhotoName)
+                </td>
+           
+                <td>
+                    <form action="/Names/Send" method="post" enctype="multipart/form-data">
+                       
+                        @foreach (var face in item.faces)
+                        {
+                            
+                    
+                            <img src="@Url.Content("/images/"+face.FileName)" alt="Image" height="50px" />
+                            <input type="text" name=@face.Id value=@face.Id hidden="" />
+                            
+                            <input type="text" name=@face.FileName value="Vardas" />
+                            
+                            <br />
+                            
+                        }
+                        <input type="submit" value="Įvesti" />
+                    </form>
+
+                    <br /><br /><br />
+
+
+                </td>
+
+</tr>
+    }
+
+</table>
+

@@ -1,0 +1,22 @@
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.csprojResolveAssemblyReference.cache
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\MarJuz.FaceDetection.dll
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\MarJuz.FaceDetection.pdb
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\FluentNHibernate.dll
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\Iesi.Collections.dll
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\NHibernate.dll
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\FluentNHibernate.xml
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\Iesi.Collections.xml
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\bin\Debug\NHibernate.xml
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.dll
+C:\Users\Namai\MArtyno KTU\I II Kursai\Praktika\Naujas\MarJuz.FaceDetection\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.pdb
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\MarJuz.FaceDetection.dll
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\MarJuz.FaceDetection.pdb
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\FluentNHibernate.dll
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\Iesi.Collections.dll
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\NHibernate.dll
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\FluentNHibernate.xml
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\Iesi.Collections.xml
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\bin\Debug\NHibernate.xml
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.csprojResolveAssemblyReference.cache
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.dll
+C:\Users\Namai\Desktop\C#\Veidai\Veidai\MarJuz.FaceDetection\obj\Debug\MarJuz.FaceDetection.pdb

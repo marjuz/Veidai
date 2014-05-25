@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MarJuz.FaceDetection.Entities.Faces>
+
+@{
+    ViewBag.Title = "Faces";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table id="FaceLine">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FaceName)
+        </th>
+        <th>
+            Veidas
+        </th>
+        <th>
+            Nuotrauka
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceName)
+            </td>
+            <td>
+               
+                <img src="@Url.Content("/images/"+item.FileName)" alt="Image" height="50px" />
+            </td>
+            <td>
+                <img src="@Url.Content("/images/" + item.photo.PhotoName)" alt="Image" height="150px" />
+            </td>
+            <td>
+                @Html.ActionLink("Nuotrauka", "Find", new { id = item.photo.Id })
+            </td>
+
+
+        </tr>
+    }
+
+</table>

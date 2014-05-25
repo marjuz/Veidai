@@ -1,0 +1,149 @@
+﻿  body {
+            padding-left: 11em;
+       }
+  #header {
+            -moz-border-radius:8px 8px 0px 0px; /* for Firefox */
+            -webkit-border-radius: 8px 8px 0px 0px; /* for Webkit-Browsers */
+            border-radius: 8px 8px 0px 0px; /* regular */
+            width:800px;
+            text-align:center;
+            opacity:0.6;
+            filter:alpha(opacity=60); 
+            border-style:outset;
+            border-width:1px;
+            background:Transparent;
+            clear: both;
+                   
+          }
+  #textheder {
+      color:white;
+  }
+    #menu {
+           
+            -moz-border-radius:0px 0px 8px 8px; /* for Firefox */
+            -webkit-border-radius: 0px 0px 8px 8px; /* for Webkit-Browsers */
+            border-radius: 0px 0px 8px 8px; /* regular */
+            width:800px;
+            height: 2.2em;
+            background:transparent;
+            opacity:0.6;
+            filter:alpha(opacity=60); 
+            border-style:inset;
+            border-width:1px;
+            text-align:left;
+
+            
+          }
+    #menu a{
+            color: black;
+    text-decoration: none;
+     
+        
+    }
+  
+  li{
+        padding-left: 10px;
+        padding-right: 10px;
+        display:inline; 
+        border-style:outset;
+        background:white;
+        opacity:0.6;
+        filter:alpha(opacity=60); 
+        text-align:center;
+        text-decoration-color:black;
+        border-width:1px;
+        
+        width: 200em;
+        -moz-border-radius: 8px 8px 0px 0px; 
+        border-radius: 8px 8px 0px 0px; 
+        font-size: 17px;
+            position:relative; 
+        left:-40px; top:-1px;
+}
+
+  #emty {
+      border-width:0px;
+      background:transparent;
+      position:relative; 
+      left:270px; top:-35px;
+      align-content:flex-end;
+
+  }
+  #main {
+            -moz-border-radius:0px 0px 8px 8px; /* for Firefox */
+            -webkit-border-radius: 0px 0px 8px 8px; /* for Webkit-Browsers */
+            border-radius: 0px 0px 8px 8px; /* regular */
+            width:800px;
+            background:transparent;
+            border-style:none;
+            border-width:1px;
+            
+            text-align:left;
+                  position:relative;
+                  top:30px; 
+    
+
+
+  }
+
+  #footer {
+           
+            -moz-border-radius:0px 0px 8px 8px; /* for Firefox */
+            -webkit-border-radius: 0px 0px 8px 8px; /* for Webkit-Browsers */
+            border-radius: 0px 0px 8px 8px; /* regular */
+            width:800px;
+            text-align:center;
+            opacity:0.6;
+            filter:alpha(opacity=60); 
+            border-style:inset;
+            border-width:1px;
+            background:Transparent;
+            clear: both;
+            position:relative;
+                  top:50px; 
+
+          }
+  #footer p {
+
+      color:white;
+  }
+
+   #dropZone {
+        background: gray;
+        border: white dashed 2px;
+        width: 600px;
+        padding: 100px;
+        text-align: center;
+        color: white;
+    }
+
+h2 {
+                opacity:0.6;
+            filter:alpha(opacity=60);
+             background:Transparent; 
+            text-align: center;
+        color: white;
+}
+
+#tekstas {
+                opacity:0.6;
+            filter:alpha(opacity=60);
+             background:Transparent; 
+            text-align: center;
+        color: white;
+
+}
+
+#FaceLine {
+            -moz-border-radius:8px 8px 0px 0px; /* for Firefox */
+            -webkit-border-radius: 8px 8px 0px 0px; /* for Webkit-Browsers */
+            border-radius: 8px 8px 0px 0px; /* regular */
+            width:800px;
+            text-align:center;
+            opacity:0.6;
+            filter:alpha(opacity=60); 
+            border-style:outset;
+            border-width:1px;
+            background:Transparent;
+            clear: both;
+}

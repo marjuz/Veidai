@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MarJuz.FaceDetection.Entities.Photo>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<table id="FaceLine">
+    <tr>
+        <th>
+            Nuotraukos pavadinimas
+        </th>
+        <th>
+            Nuotrauka
+        </th>
+        
+        <th>
+            Veidų skaičius nuotraukoje
+        </th>
+       
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.PhotoName)
+            </td>
+            <td>
+                <img src="@Url.Content("/images/"+item.PhotoName)" alt="Image" height="100px" />
+            </td>
+            <td>
+                @{
+                    var link = @Html.DisplayFor(modelItem => item.NoOfFaces);
+                    String Link = link.ToString();
+                }
+                @Html.ActionLink("Veidų skaičius nuotraukoje: " +Link, "Photo", new { id = item.Id });
+            </td>
+ 
+            <td>
+                @Html.ActionLink("Ištrinti", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
